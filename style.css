@@ -1,1 +1,36 @@
+body{
+      border: 0;
+     background-color: antiquewhite;
+}
 
+li{
+    padding: 15px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+.Linha{
+    display: inline;
+    background-color: rgb(211, 195, 195);
+    position: relative;
+    bottom: 60px;
+    left: 40%;
+    margin-right: 100px;
+    border-radius: 30px;
+   
+   }
+
+a {
+    text-decoration:none;
+}
+
+.ImagemSuperior {
+    background-color: black; /*Isso é aquela aba q tem imagens logo abaixo
+    da nav*/
+}
