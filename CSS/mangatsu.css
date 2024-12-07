@@ -1,67 +1,38 @@
-.titulo{
-    text-align:start;
-    margin-left: 30px ;
+.titulo {
+    margin-left: 30px;
     margin-bottom: 30px;
-    padding-left: 30px;
-    max-width: 90%;
-    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    padding: 20px;
+    background: linear-gradient(to right, rgb(252, 149, 149), rgba(255, 0, 0, 0));
     border-radius: 10px;
 }
 
+.descricaoMangatsu {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
-.catalogodestaque { 
+.catalogodestaque {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.catalogoLancamento{
-        display: flex;
+.catalogoLancamento {
+    display: flex;
     justify-content: space-around;
     text-align: center;
+    position: relative;
+    left: 30px;
 }
 
-section img{
+.manga img {
     width: 190px;
     height: 273px;
 }
-@keyframes container{
 
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-    75% {margin-left: -300%;}
-    95% {margin-left: -300%;}
-    100% {margin-left: -400%;}
-   
-}
-
-.container-imagem{
- position: relative; 
- display: inline-block;
-}
-.tooltip {
-    display: none; 
-    position: absolute; 
-    background-color: white; 
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    z-index: 1000; 
-    width: 200px; /
-    height: 200px;
-    left: 200px;
-    bottom: 70px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-}
-
-.container-imagem:hover .tooltip{
-    display: block;
-}
-
-.manga{
-
-   margin-bottom: 40px;
+.manga {
+    margin-bottom: 40px;
 }
