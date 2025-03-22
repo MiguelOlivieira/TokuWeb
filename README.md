@@ -11,7 +11,7 @@ TokuWeb é um site dedicado aos fãs de Tokusatsu, trazendo informações sobre 
 - Seções interativas, como personagens, filmes, séries, mangás e contato para sugestões.
 - Design responsivo e intuitivo, com suporte a navegação em dispositivos móveis.
 
-## 🚀 Funcionalidades
+## 🚀 Funcionalidades .
 
 - Navegação por categorias: Filmes, Séries, Personagens e Mangás.
 - Seção dedicada à história do Tokusatsu, explicando sua origem e evolução.
